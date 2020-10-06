@@ -1,0 +1,7 @@
+build/
+build-*/
+.*.swp
+.git-*
+__*/
+.clangd/
+compile_commands.json
