@@ -27,7 +27,7 @@ namespace RetinalExposureCalc
 }
           )EOF"
               );
-          this->addNote("Vincelette used a simple reduced eye model to calculate retinal image size. The eye consists of a single spherical refracting surface (cornea) with a 6.1 cm radius of curvature and a retinal plane at 2.44 cm. A set of Sellmeier coefficients for the refractive index of the eye were found by fitting to refractive indices computed from measured refractive error in the Human eye. This means the refractive index used for the eye model should produce retinal image sizes close to those in the nonaccommodated human eye, but are not necessarily the true refractive index of any ocular tissue. See Vincelette 2008.");
+          this->addNote("Vincelette used a simple reduced eye model to calculate retinal image size. The eye consists of a single spherical refracting surface (cornea) with a 6.1 mm radius of curvature and a retinal plane at 2.44 cm. A set of Sellmeier coefficients for the refractive index of the eye were found by fitting to refractive indices computed from measured refractive error in the Human eye. This means the refractive index used for the eye model should produce retinal image sizes close to those in the nonaccommodated human eye, but are not necessarily the true refractive index of any ocular tissue. See Vincelette 2008.");
 
           }
 
